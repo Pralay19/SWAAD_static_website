@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin:0;
+}
 body{
-    font-family: "Dancing Script", serif;
+    font-family: "Sour Gummy", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
     color:black;
     line-height: 1.7;
 }
+
 h1,h2,h3,h4,h5,h6{
     font-weight: 400;
     color: brown;
@@ -20,7 +24,14 @@ a:hover{
     color:goldenrod;
 }
 img{
-    min-width: 100%;
+    width: 100%;
+}
+
+.nav-item:hover{
+    text-decoration: underline;
+    text-transform:uppercase ;
+    text-decoration-color: rgb(235, 29, 170);
+
 }
 
 /* Button */
@@ -71,3 +82,23 @@ img{
     margin:10px;
     vertical-align:  middle;
 }
+section{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/* Button for Add */
+.btn-addtocart {
+    font-weight: 600;
+    background: linear-gradient(145deg, #b4143e, #2c2c2c); 
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    transition: background 0.4s ease, color 0.4s ease;
+}
+
+.btn-addtocart:hover {
+    background: linear-gradient(145deg, #ff8a00, #e52e71);
+    color: #ffffff; /* Keeps text white on hover */
+}
+
