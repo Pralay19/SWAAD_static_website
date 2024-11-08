@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+body{
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    color:black;
+    line-height: 1.7;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 400;
+    color: brown;
+}
+a{
+    color:black;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-weight: 400;
+}
+a:hover{
+    color:goldenrod;
+}
+img{
+    min-width: 100%;
+}
+
+/* Button */
+.btn{
+    border:0;
+    
+    padding:14px 38px;
+
+}
+.btn-brand {
+    font-weight: 600;
+    background: linear-gradient(145deg, #3a3a3a, #1f1f1f); 
+    color: #ffffff; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.btn-brand:hover {
+    background: linear-gradient(145deg, #444444, #222222); 
+    box-shadow: 0 6px 12px #01061c66, 
+                0 0 20px #0f0f01;  
+    color: hwb(71 5% 1%);  
+}
+/* slides */
+.slide-1{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../assets/images/slide-1.jpeg);
+}
+.slide-2{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../assets/images/slide-2.jpeg);
+}
+.slide-3{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../assets/images/slide-3.jpeg);
+}
+.bg-cover{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#heroSlider h6::after,
+#heroSlider h6::before{
+    content:" ";
+    width:40px;
+    height:4px;
+    background-color:white;
+    display: inline-block;
+    margin:10px;
+    vertical-align:  middle;
+}
