@@ -72,8 +72,8 @@ img{
     background-size: cover;
     background-repeat: no-repeat;
 }
-#heroSlider h6::after,
-#heroSlider h6::before{
+#heroSlider h4::after,
+#heroSlider h4::before{
     content:" ";
     width:40px;
     height:4px;
